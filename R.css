@@ -1,0 +1,182 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+body{
+    margin: 20px;
+    font-family: Zen Kurenaido;
+    border-radius: 47px;
+    background: #fcfcfd;
+    box-shadow:  -5px 5px 40px #656565,
+                5px -5px 40px #ffffff;
+}
+
+h2 {
+    color: #121a75;
+    text-align: center;
+}
+
+h3 {
+    color: #191d42;
+    text-align: center;
+}
+
+h5{
+    font-size: medium;
+}
+
+b {
+    text-transform: uppercase;
+}
+
+/* header */
+header{
+    background: #4545c0;
+    color: white;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    text-align: center;
+    padding: 2px 0;
+    width: auto;
+}
+
+/* images */
+.ganpati img{
+    width: 50%;
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 117px;
+}
+
+.intro img{
+    width: 50%;
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 117px;   
+}
+
+
+/* about */
+.aboutme{
+    text-align: center;
+    font-size: small;
+}
+
+
+/* gracie */
+.gracie{
+    text-align: center;
+    font-size: large;
+}
+
+.gracie img{
+    width: 50%;
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.videosong {
+    text-align: center;
+}
+video {
+    border-radius: 12px;
+}
+.videosong a{
+    color: #191d42;
+}
+.span{
+    color: crimson;
+    text-transform: uppercase;
+}
+.im1 img{
+    width: 20%;
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 90px;
+}
+.jack p{
+    font-size: small;
+    padding-left: 20px;
+}
+.jague img{
+    /* width: 50%; */
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 110px;
+}
+.tips p{
+    text-align: center;
+}
+table{
+    margin-left: 110px;
+    width: 50%;
+}
+.puppybreeds h4{
+    text-align: center;
+}
+footer{
+    color: #ffffff;
+    background-color: #4545c0;
+    text-align: center;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 25px; 
+}
+footer h2,i{
+    color: white;
+}
+
+textarea{
+    border-radius: 12px;
+    width: 50%;
+}
+fieldset{
+    border-radius: 6px;
+    width: 50%;
+    margin-left: 100px;
+}
+.submit{
+    color: #121a75;
+    background-color: #ffffff;
+    width: 100px;
+    border-radius: 3px;
+}
+
+
+@media only screen and (min-width: 350px),(max-width:780){
+    .ganpati img{
+        margin-left: 80px;
+    }
+    p{
+        font-size: small;
+    }
+    body{
+        font-size: small;
+    }
+    .intro img{
+        margin-left: 80px;
+    }
+    .im1 img{
+        margin-left: 60px;
+    }
+    .jague img{
+        height: 300px;
+        margin:0px 30px;
+    }
+    table{
+        margin-left: 80px;
+    }
+    fieldset{
+        margin-left: 80px;
+    }
+}
