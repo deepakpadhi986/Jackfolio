@@ -1,182 +1,142 @@
 /* Global styles */
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
-body{
-    margin: 20px;
-    font-family: Zen Kurenaido;
-    border-radius: 47px;
+
+body {
+    margin: 12px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    border-radius: 12px;
     background: #fcfcfd;
-    box-shadow:  -5px 5px 40px #656565,
-                5px -5px 40px #ffffff;
-}
-
-h2 {
-    color: #121a75;
+    box-shadow: -5px 5px 40px #656565, 5px -5px 40px #ffffff;
     text-align: center;
-}
-
-h3 {
-    color: #191d42;
-    text-align: center;
-}
-
-h5{
-    font-size: medium;
 }
 
 b {
     text-transform: uppercase;
 }
 
-/* header */
-header{
-    background: #4545c0;
+header {
+    background: #070738;
     color: white;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
-    text-align: center;
     padding: 2px 0;
     width: auto;
 }
 
-/* images */
-.ganpati img{
-    width: 50%;
+.image-container img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.intro img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+}
+
+.aboutme {
+    font-size: 14px;
+}
+
+.gracie {
+    text-align: center;
+}
+
+.gracie img {
+    width: 100%;
+    max-width: 500px;
     border-radius: 12px;
     margin-top: 12px;
     margin-bottom: 12px;
-    margin-left: 117px;
 }
 
-.intro img{
-    width: 50%;
-    border-radius: 12px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    margin-left: 117px;   
-}
-
-
-/* about */
-.aboutme{
-    text-align: center;
-    font-size: small;
-}
-
-
-/* gracie */
-.gracie{
-    text-align: center;
-    font-size: large;
-}
-
-.gracie img{
-    width: 50%;
-    border-radius: 12px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    margin-left: 10px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.videosong {
-    text-align: center;
-}
-video {
+/* .videosong video { 
+    width: 100%;
+    max-width: 500px;
     border-radius: 12px;
 }
-.videosong a{
+*/
+
+.videosong a {
     color: #191d42;
 }
-.span{
-    color: crimson;
-    text-transform: uppercase;
-}
-.im1 img{
+
+.im1 img {
     width: 20%;
     border-radius: 12px;
     margin-top: 12px;
     margin-bottom: 12px;
-    margin-left: 90px;
 }
-.jack p{
-    font-size: small;
-    padding-left: 20px;
-}
-.jague img{
-    /* width: 50%; */
+
+.jague img {
+    width: 20%;
     border-radius: 12px;
     margin-top: 12px;
     margin-bottom: 12px;
-    margin-left: 110px;
 }
-.tips p{
-    text-align: center;
+
+.recipe li {
+    list-style-position: inside;
 }
-table{
-    margin-left: 110px;
+
+.recipe ol {
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.submit {
     width: 50%;
 }
-.puppybreeds h4{
-    text-align: center;
-}
-footer{
+
+footer {
     color: #ffffff;
-    background-color: #4545c0;
+    background-color: #070738;
     text-align: center;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
     text-align: center;
     padding: 25px 0;
-    margin-top: 25px; 
-}
-footer h2,i{
-    color: white;
+    margin-top: 25px;
 }
 
-textarea{
-    border-radius: 12px;
-    width: 50%;
-}
-fieldset{
-    border-radius: 6px;
-    width: 50%;
-    margin-left: 100px;
-}
-.submit{
-    color: #121a75;
-    background-color: #ffffff;
-    width: 100px;
-    border-radius: 3px;
-}
+@media only screen and (max-width: 780px) {
 
+    .image-container img {
+        max-width: 80%;
+    }
 
-@media only screen and (min-width: 350px),(max-width:780){
-    .ganpati img{
-        margin-left: 80px;
+    .intro img {
+        max-width: 80%;
     }
-    p{
-        font-size: small;
+
+    .gracie img {
+        max-width: 80%;
     }
-    body{
-        font-size: small;
+
+    iframe {
+        width: auto;
+        height: auto;
     }
-    .intro img{
-        margin-left: 80px;
+
+    .im1 img {
+        max-width: 80%;
     }
-    .im1 img{
-        margin-left: 60px;
-    }
-    .jague img{
-        height: 300px;
-        margin:0px 30px;
-    }
-    table{
-        margin-left: 80px;
-    }
-    fieldset{
-        margin-left: 80px;
+
+    .jague img {
+        max-width: 80%;
     }
 }
